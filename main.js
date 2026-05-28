@@ -1,6 +1,6 @@
 /* =============================================
    MAIN.JS — Interactions
-   Mohannad A.J. vCard
+   Marwan Gad vCard
    ============================================= */
 
 'use strict';
@@ -32,7 +32,7 @@ function downloadVCard() {
   var url  = URL.createObjectURL(blob);
   var a    = document.createElement('a');
   a.href = url;
-  a.download = 'mohannad-aj.vcf';
+  a.download = 'marwan-gad.vcf';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
